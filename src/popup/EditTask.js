@@ -38,7 +38,6 @@ const EditTask = ({modal,toggle,updateTask,taskObj}) => {
             <div className='form-group'>
                 <label>Description</label>
                 <textarea rows={5} className='form-control' value={description} onChange={handleChange} name="description">
-
                 </textarea>
             </div>
           </form>

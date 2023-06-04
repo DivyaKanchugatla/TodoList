@@ -21,6 +21,7 @@ const TodoList = () => {
         localStorage.setItem("taskList",JSON.stringify(tempList))
         setTaskList(tempList)
         setModal(false)
+        
     }
     const deleteTask = (index) => {
         let tempList = taskList
